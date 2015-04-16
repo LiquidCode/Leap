@@ -33,13 +33,6 @@
                     <ul class="nav navbar-nav">
                         ${navigation.render(request, request.navigation['navbar-left'])}\
                     </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        %if request.session.user:
-                        <li><a href="${request.route_path("authentication.logout")}">Log out</a></li>
-                        %else:
-                        <li><a href="${request.route_path("authentication.login")}">Log in</a></li>
-                        %endif
-                    </ul>
                 </div>
             </div>
         </nav>
