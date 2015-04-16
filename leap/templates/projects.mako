@@ -10,7 +10,7 @@
     <div class="row">
         <div class="col-md-4">
             <h2 class="h3">
-                <img src="${request.static_path("leap:assets/imgs/liquidcode.png")}" class="project-logo" />
+                <img src="${request.static_path("leap:assets/imgs/gameshaft.png")}" class="project-logo" />
                 Gameshaft
             </h2>
             <p>
