@@ -26,5 +26,18 @@
             </p>
             <a class="btn btn-primary" href="http://gameshaft.net">Take a look &raquo;</a>
         </div>
+
+        <div class="col-md-4">
+            <h2 class="h3">
+                ChatNode!
+            </h2>
+            <p>
+                ChatNode! is an IRC network originally meant to be used by different subprojects of
+                LiquidCode, like Gameshaft. It's open for everyone, and contains both User Services and
+                Channel Services.
+            </p>
+            <a class="btn btn-primary" href="http://chatno.de">More info &raquo;</a>
+            <a class="btn btn-default" href="https://github.com/ChatNode">GitHub &raquo;</a>
+        </div>
     </div>
 </div>
