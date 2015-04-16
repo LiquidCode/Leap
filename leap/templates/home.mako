@@ -18,13 +18,33 @@
             </p>
         </div>
         <div class="col-md-4">
-            <h2>stuff</h2>
+            <h2>Projects</h2>
             <p>
+                We mainly do software development work, but we do run some
+                services on the side. Although there may be a large period of time between
+                commits on a project, no projects will be discontinued without further notice.
+                After all, work and education comes before hobbies.
+            </p>
+            <p>
+                <a class="btn btn-default" href="${request.route_path("leap.projects")}">
+                    Projects &raquo;
+                </a>
             </p>
         </div>
         <div class="col-md-4">
-            <h2>more stuff</h2>
+            <h2>Services</h2>
             <p>
+                Among the services we run there's an IRC network with 4
+                servers, a website aimed at putting gaming resources under
+                one roof, a Teamspeak 3 server and a couple of game servers 
+                for stuff like Garry's Mod, Minecraft, Counter-Strike: Source
+                and Counter-Strike: Global Offensive.
+            </p>
+            <p>
+                Most of the services tie in with each other. For example, Channel creation
+                on our TS3 server is handled through the Gameshaft website and TS3 channels
+                integrates with your Gameshaft channel. User permissions on said server are 
+                also handled automatically by the website.
             </p>
         </div>
     </div>
