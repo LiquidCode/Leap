@@ -6,3 +6,30 @@ table.project_list
     border-bottom-right-radius: 0px;
     // Soften borders
     border-color: darken($project-list-category-color, 20)
+  // Fill the entire page width
+  width: 100%
+  // Remove shitty padding
+  padding-left: 0px
+  padding-right: 0px
+  // Column adjustments
+  tr:first-child
+    // Repo names
+    th:nth-child(1)
+      width: 25%
+    // Description
+    th:nth-child(2)
+      width: 45%
+    // Last Change
+    th:nth-child(4)
+      width: 100px
+    // Links
+    th:nth-child(5)
+      width: 140px
+  // Use unshortened descriptions - the full version is in the title attribute
+  tr td:nth-child(2) a
+    letter-spacing: -1000px
+    font-size: 0px
+    &::before
+      letter-spacing: 0px
+      font-size: 12px
+      content: attr(title)

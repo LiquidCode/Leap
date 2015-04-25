@@ -1,4 +1,17 @@
-// Remove horizontal padding
 table.shortlog
+  // Remove horizontal padding
   padding-left: 0px
   padding-right: 0px
+  // Fill the entire page
+  width: 100%
+  // Column adjustments
+  tr:first-child
+    // Date
+    td:nth-child(1)
+      width: 80px
+    // Author
+    td:nth-child(2)
+      width: 15%
+    // Links
+    td:nth-child(4)
+      width: 150px
