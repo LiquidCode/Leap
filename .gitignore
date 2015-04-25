@@ -56,3 +56,4 @@ bin
 include
 local
 .DS_Store
+/src/
