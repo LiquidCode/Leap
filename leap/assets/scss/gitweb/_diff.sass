@@ -1,0 +1,25 @@
+// On [commit] pages the diff tree's got a different padding than the
+// usual page_body padding. Flatten it.
+table.diff_tree
+  margin-left: -4px
+  margin-right: -4px
+
+// Same as above, except that on [commitdiff] the table is inside a
+// div.page_body.
+div.page_body table.diff_tree
+  margin-left: -8px
+  margin-right: -8px
+  padding-left: 0px
+  padding-right: 0px
+
+// [commitdiff] Remove unnatural padding between diff_tree and diff
+div.page_body table.diff_tree
+  padding-bottom: 0px;
+
+div.patchset
+  // The headers doesn't look pretty when squashed
+  .diff.header
+    padding-left: 4px
+  .diff.extended_header
+    padding-left: 2px
+

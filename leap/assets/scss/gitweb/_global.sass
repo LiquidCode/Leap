@@ -1,0 +1,21 @@
+body
+  // Remove the stupid border
+  border-width: 0px
+  // Body rounded corners
+  .page_header
+    border-top-left-radius: $border-radius-body
+    border-top-right-radius: $border-radius-body
+  .page_footer
+    border-bottom-left-radius: $border-radius-body
+    border-bottom-right-radius: $border-radius-body
+
+// Stupid page_body horizontal padding
+div.patchset, table.tree
+  margin-left: -8px
+  margin-right: -8px
+
+// This shit looks stupid in [commitdiff] but I have no clue whether it's
+// unsed anywhere else
+div.list_head
+  display: none
+
